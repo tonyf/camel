@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Open Source</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>OpenCV</string>
+			<key>Key</key>
+			<string>opencv</string>
+			<key>DefaultValue</key>
+			<string>http://opencv.org/</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>SWRevealViewController</string>
+			<key>Key</key>
+			<string>reveal</string>
+			<key>DefaultValue</key>
+			<string>https://github.com/John-Lluch/SWRevealViewController</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>InAppSettingsKit</string>
+			<key>Key</key>
+			<string>settings</string>
+			<key>DefaultValue</key>
+			<string>http://www.inappsettingskit.com/</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>CSNotificationView</string>
+			<key>Key</key>
+			<string>notification</string>
+			<key>DefaultValue</key>
+			<string>https://github.com/problame/CSNotificationView</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Icons</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Back</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Jamison Wieser from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>backdark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Navigation Arrow</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Gilad Fried from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>nav_arrowdark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Pause</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Chris Thoburn from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>pausedark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Play</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Mateo Zlatar from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>playdark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Settings</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Michael Zenaty from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>settingsdark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Stop</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Mateo Zlatar from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>stopdark</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Trip Log</string>
+			<key>Key</key>
+			<string>title_pic</string>
+			<key>DefaultValue</key>
+			<string>Created by Alexey Ivanov from the Noun Project</string>
+			<key>IASKCellImage</key>
+			<string>triplogdark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

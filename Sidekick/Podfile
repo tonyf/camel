@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Sidekick' do
+  pod 'Wit', '~> 4.1.0'
+  pod 'INTULocationManager'
+  pod 'Tweaks'
+  pod 'Parse'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'ParseFacebookUtilsV4'
+  pod 'CSNotificationView'
+end
+
+target 'SidekickTests' do
+
+end

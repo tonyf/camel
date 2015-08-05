@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="752" height="466"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animal71" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-jY-nDG">
+                    <rect key="frame" x="-2" y="70" width="746" height="396"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fRR-xD-JyC">
+                    <rect key="frame" x="188" y="116.5" width="376" height="233"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camel" translatesAutoresizingMaskIntoConstraints="NO" id="ySE-PF-1DC">
+                            <rect key="frame" x="87" y="0.0" width="202" height="105"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="202" id="Fzv-dG-OnV"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsg-H0-rxD">
+                            <rect key="frame" x="53" y="164" width="270" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="0Cx-4O-3JA"/>
+                                <constraint firstAttribute="width" secondItem="Bsg-H0-rxD" secondAttribute="height" multiplier="269:59" id="SJl-Yy-Rfn"/>
+                                <constraint firstAttribute="width" secondItem="Bsg-H0-rxD" secondAttribute="height" multiplier="54:11" id="WBh-23-xS1"/>
+                                <constraint firstAttribute="width" constant="270" id="my6-pK-MFp"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" backgroundImage="login_button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="SJl-Yy-Rfn"/>
+                                    <exclude reference="WBh-23-xS1"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="loginButtonPressed:" destination="-1" eventType="touchUpInside" id="1Q9-0j-C0P"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="leading" secondItem="fRR-xD-JyC" secondAttribute="leading" constant="53" id="1oB-Kt-XiW"/>
+                        <constraint firstItem="ySE-PF-1DC" firstAttribute="leading" secondItem="fRR-xD-JyC" secondAttribute="leading" constant="87" id="BB1-GZ-baf"/>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="centerX" secondItem="ySE-PF-1DC" secondAttribute="centerX" id="Gs8-zM-d50"/>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="centerX" secondItem="ySE-PF-1DC" secondAttribute="centerX" id="JMs-ec-08T"/>
+                        <constraint firstAttribute="trailing" secondItem="Bsg-H0-rxD" secondAttribute="trailing" constant="53" id="Pre-ma-Chf"/>
+                        <constraint firstItem="ySE-PF-1DC" firstAttribute="top" secondItem="fRR-xD-JyC" secondAttribute="top" id="Wq8-nW-wj8"/>
+                        <constraint firstItem="ySE-PF-1DC" firstAttribute="top" secondItem="fRR-xD-JyC" secondAttribute="top" id="bWM-H4-tOG"/>
+                        <constraint firstAttribute="centerX" secondItem="ySE-PF-1DC" secondAttribute="centerX" id="jVF-fe-vCx"/>
+                        <constraint firstAttribute="bottom" secondItem="Bsg-H0-rxD" secondAttribute="bottom" constant="14" id="lfn-w6-eaO"/>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="top" secondItem="ySE-PF-1DC" secondAttribute="bottom" constant="41" id="rBI-Jc-8M8"/>
+                        <constraint firstAttribute="trailing" secondItem="ySE-PF-1DC" secondAttribute="trailing" constant="87" id="yd6-BA-2qh"/>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="top" secondItem="ySE-PF-1DC" secondAttribute="bottom" constant="45" id="yvV-TI-Lpk"/>
+                        <constraint firstItem="Bsg-H0-rxD" firstAttribute="top" secondItem="ySE-PF-1DC" secondAttribute="bottom" constant="59" id="zGd-g0-lff"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Wq8-nW-wj8"/>
+                            <exclude reference="jVF-fe-vCx"/>
+                            <exclude reference="Gs8-zM-d50"/>
+                            <exclude reference="JMs-ec-08T"/>
+                            <exclude reference="rBI-Jc-8M8"/>
+                            <exclude reference="yvV-TI-Lpk"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Mvr-jY-nDG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-2" id="FiW-po-8D7"/>
+                <constraint firstAttribute="centerX" secondItem="fRR-xD-JyC" secondAttribute="centerX" id="KHf-ty-vNo"/>
+                <constraint firstAttribute="bottom" secondItem="Mvr-jY-nDG" secondAttribute="bottom" id="a8L-su-eFi"/>
+                <constraint firstItem="Mvr-jY-nDG" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="f0N-mG-0PW"/>
+                <constraint firstItem="Mvr-jY-nDG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="hLM-E2-BYk"/>
+                <constraint firstAttribute="centerY" secondItem="fRR-xD-JyC" secondAttribute="centerY" id="smf-u0-6fh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="363" y="474"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="animal71" width="1016" height="567"/>
+        <image name="camel" width="267" height="105"/>
+        <image name="login_button" width="420" height="91"/>
+    </resources>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TripLogViewController">
+            <connections>
+                <outlet property="emptyLogLabel" destination="0aj-Io-dRW" id="RFm-lm-r2L"/>
+                <outlet property="navigationBar" destination="5hC-OS-x86" id="V5N-e8-vZB"/>
+                <outlet property="tableView" destination="srK-br-nzU" id="kGH-cp-b3q"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Dsv-Mp-L1v"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="srK-br-nzU">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Kl3-Ql-tCp"/>
+                        <outlet property="delegate" destination="-1" id="rGF-CU-Kw1"/>
+                    </connections>
+                </tableView>
+                <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hC-OS-x86">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <color key="barTintColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Trip Log" id="dmb-M8-ynj"/>
+                    </items>
+                </navigationBar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No trips in log" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aj-Io-dRW">
+                    <rect key="frame" x="245" y="311.5" width="110" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="srK-br-nzU" secondAttribute="bottom" id="1Aw-CD-799"/>
+                <constraint firstItem="srK-br-nzU" firstAttribute="top" secondItem="5hC-OS-x86" secondAttribute="bottom" id="6E7-Eh-7k3"/>
+                <constraint firstItem="5hC-OS-x86" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6jo-ls-hUr"/>
+                <constraint firstItem="5hC-OS-x86" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6nC-qK-8cw"/>
+                <constraint firstAttribute="bottom" secondItem="5hC-OS-x86" secondAttribute="bottom" constant="556" id="J5o-xy-UjD"/>
+                <constraint firstAttribute="trailing" secondItem="5hC-OS-x86" secondAttribute="trailing" id="KPN-OU-nFn"/>
+                <constraint firstAttribute="centerY" secondItem="0aj-Io-dRW" secondAttribute="centerY" constant="-21.5" id="Qlo-gv-EeN"/>
+                <constraint firstItem="srK-br-nzU" firstAttribute="trailing" secondItem="5hC-OS-x86" secondAttribute="trailing" id="VDy-Dl-jWh"/>
+                <constraint firstItem="srK-br-nzU" firstAttribute="leading" secondItem="5hC-OS-x86" secondAttribute="leading" id="VRi-5h-REG"/>
+                <constraint firstAttribute="trailing" secondItem="srK-br-nzU" secondAttribute="trailing" id="aaw-3B-jE5"/>
+                <constraint firstItem="srK-br-nzU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cwq-vg-6Wc"/>
+                <constraint firstAttribute="centerX" secondItem="0aj-Io-dRW" secondAttribute="centerX" id="hSo-SD-Igx"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="J5o-xy-UjD"/>
+                    <exclude reference="VDy-Dl-jWh"/>
+                    <exclude reference="VRi-5h-REG"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

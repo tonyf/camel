@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D50DF9AF-A7FD-4E0B-AF35-6C94D74B14BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sidekick</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4191BB7DB72228AF8FD4B28A5D45783BD892C462</key>
+		<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbuniversity.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>facebook-university/teams/thesquad/Sidekick/Sidekick.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4191BB7DB72228AF8FD4B28A5D45783BD892C462</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbuniversity.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4191BB7DB72228AF8FD4B28A5D45783BD892C462</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4191BB7DB72228AF8FD4B28A5D45783BD892C462</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fbuniversity</string>
+		</dict>
+	</array>
+</dict>
+</plist>
