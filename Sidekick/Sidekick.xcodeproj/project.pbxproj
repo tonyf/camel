@@ -796,6 +796,7 @@
 				TargetAttributes = {
 					B1D96EA01B45E1A1008ACC29 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = G5G8URK4Q6;
 					};
 					B1D96EB91B45E1A1008ACC29 = {
 						CreatedOnToolsVersion = 6.4;
@@ -1073,6 +1074,7 @@
 			baseConfigurationReference = 57C3F0C8252167BD6FD10EDA /* Pods-Sidekick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1093,6 +1095,7 @@
 			baseConfigurationReference = 6F244BC51BCA1D6AEB31B977 /* Pods-Sidekick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -10,31 +10,31 @@
 	<string>Sidekick</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4191BB7DB72228AF8FD4B28A5D45783BD892C462</key>
-		<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbuniversity.git</string>
+		<key>9CB1DDE942A200A3758D52BA7213493ECCD1F8EF</key>
+		<string>bitbucket.org:norabarlow/camel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>facebook-university/teams/thesquad/Sidekick/Sidekick.xcworkspace</string>
+	<string>Sidekick/Sidekick.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4191BB7DB72228AF8FD4B28A5D45783BD892C462</key>
-		<string>../../../../..</string>
+		<key>9CB1DDE942A200A3758D52BA7213493ECCD1F8EF</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbuniversity.git</string>
+	<string>bitbucket.org:norabarlow/camel.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4191BB7DB72228AF8FD4B28A5D45783BD892C462</string>
+	<string>9CB1DDE942A200A3758D52BA7213493ECCD1F8EF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4191BB7DB72228AF8FD4B28A5D45783BD892C462</string>
+			<string>9CB1DDE942A200A3758D52BA7213493ECCD1F8EF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>fbuniversity</string>
+			<string>Camel</string>
 		</dict>
 	</array>
 </dict>

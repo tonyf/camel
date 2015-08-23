@@ -26,7 +26,7 @@
 
     [UIApplication sharedApplication].idleTimerDisabled = YES;
 
-    [Parse setApplicationId:@"d38DQb5TqEJ7hn6ytwomERF9JsaZgDNnrdnOMJIF" clientKey:@"nyjtllt0oS6uwJ2yOLSTHjHdYM3K0ut9ebZitkyB"];
+    [Parse setApplicationId:@"hjotIAYlGDJQvoaVjXFQrSqkHo50Gvo1cvDPJNVr" clientKey:@"7hJNd0SiVGH45I8FA59wITj1igF73YlYUAwaMsmG"];
     [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
 
     // Wit setup
