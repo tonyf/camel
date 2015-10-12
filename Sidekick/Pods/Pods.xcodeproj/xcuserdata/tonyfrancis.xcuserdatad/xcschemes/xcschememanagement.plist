@@ -6,123 +6,123 @@
 	<dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>CSNotificationView-CSNotificationView.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>CSNotificationView.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FBSDKCoreKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FBSDKLoginKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FBSDKShareKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>INTULocationManager.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>ParseFacebookUtilsV4.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Sidekick.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Tweaks.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Wit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0EEB2751341EC5C5625110E111B2B944</key>
+		<key>395ECC6AF1AB8050CDF5A3BCA8D8C0AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2BB432956E6EF9B506BC16FCD0991F4F</key>
+		<key>3BB0FFABE8E381BD5CFE3A19D473E005</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36D24A941E77E2807B6B9473F59027BC</key>
+		<key>4519C8F30372E249E2564B79F72C0A9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>411F5F84F81F4E47C8345F9DC2870528</key>
+		<key>4E286D373D75563CE26E479A68203892</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5FC53AD3CF844DFD780BF7496D3476E0</key>
+		<key>5366B7F679CF2BA31EA583EA35CA2D90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89D2B2A155428FF49844756FA5363C17</key>
+		<key>81D7FE2A0FD9258247B1232874B837DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9126A5B70E110846D14F93654BB0BD58</key>
+		<key>95196314B488D3EE2D0B1BC442874B3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AAEDBCA069BBDEEDFBA6352AADA75450</key>
+		<key>A48601FEE4437A924848DB48369BA809</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B36D548D56B25027856B6FEC44340670</key>
+		<key>C78CAB9013653EB1A250B2DFD3BC7666</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B64140802F0B841B5F0185D673BEFEBD</key>
+		<key>D072D7D8D2ACB4F987970415F0E4B161</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BBEDF79EF3452B84B738EAAB5BB398DC</key>
+		<key>D976D30461D716733082CF42E3AC76EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FB47F6172EBBF0F11068BB93FD6D2A3D</key>
+		<key>DBDDB4FFB08B9CE13C3842D452303563</key>
 		<dict>
 			<key>primary</key>
 			<true/>

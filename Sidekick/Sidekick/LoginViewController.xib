@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,18 +19,21 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animal71" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-jY-nDG">
                     <rect key="frame" x="-2" y="70" width="746" height="396"/>
+                    <animations/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fRR-xD-JyC">
                     <rect key="frame" x="188" y="116.5" width="376" height="233"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camel" translatesAutoresizingMaskIntoConstraints="NO" id="ySE-PF-1DC">
                             <rect key="frame" x="87" y="0.0" width="202" height="105"/>
+                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="202" id="Fzv-dG-OnV"/>
                             </constraints>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsg-H0-rxD">
                             <rect key="frame" x="53" y="164" width="270" height="55"/>
+                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="55" id="0Cx-4O-3JA"/>
                                 <constraint firstAttribute="width" secondItem="Bsg-H0-rxD" secondAttribute="height" multiplier="269:59" id="SJl-Yy-Rfn"/>
@@ -51,6 +55,7 @@
                             </connections>
                         </button>
                     </subviews>
+                    <animations/>
                     <constraints>
                         <constraint firstItem="Bsg-H0-rxD" firstAttribute="leading" secondItem="fRR-xD-JyC" secondAttribute="leading" constant="53" id="1oB-Kt-XiW"/>
                         <constraint firstItem="ySE-PF-1DC" firstAttribute="leading" secondItem="fRR-xD-JyC" secondAttribute="leading" constant="87" id="BB1-GZ-baf"/>
@@ -78,6 +83,7 @@
                     </variation>
                 </view>
             </subviews>
+            <animations/>
             <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Mvr-jY-nDG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-2" id="FiW-po-8D7"/>

@@ -142,11 +142,11 @@
 
   [self configureWithIcon:nil
                     title:logInTitle
-          backgroundColor:nil
+          backgroundColor:[super defaultBackgroundColor]
          highlightedColor:nil
             selectedTitle:logOutTitle
              selectedIcon:nil
-            selectedColor:nil
+            selectedColor:[super defaultBackgroundColor]
  selectedHighlightedColor:nil];
   self.titleLabel.textAlignment = NSTextAlignmentCenter;
 
@@ -170,6 +170,13 @@
 
 - (void)_buttonPressed:(id)sender
 {
+  if ([self.delegate respondsToSelector:@selector(loginButtonWillLogin:)]) {
+    if (![self.delegate loginButtonWillLogin:self]) {
+      return;
+    }
+  }
+
+  [self logTapEventWithEventName:FBSDKAppEventNameFBSDKLoginButtonDidTap parameters:[self analyticsParameters]];
   if ([FBSDKAccessToken currentAccessToken]) {
     NSString *title = nil;
 
@@ -194,12 +201,15 @@
     NSLocalizedStringWithDefaultValue(@"LoginButton.ConfirmLogOut", @"FacebookSDK", [FBSDKInternalUtility bundleForStrings],
                                       @"Log Out",
                                       @"The label for the FBSDKLoginButton action sheet to confirm logging out");
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:title
                                                        delegate:self
                                               cancelButtonTitle:cancelTitle
                                          destructiveButtonTitle:logOutTitle
                                               otherButtonTitles:nil];
     [sheet showInView:self];
+#pragma clang diagnostic pop
   } else {
     FBSDKLoginManagerRequestTokenHandler handler = ^(FBSDKLoginManagerLoginResult *result, NSError *error) {
       if ([self.delegate respondsToSelector:@selector(loginButton:didCompleteWithResult:error:)]) {
@@ -208,9 +218,13 @@
     };
 
     if (self.publishPermissions.count > 0) {
-      [_loginManager logInWithPublishPermissions:self.publishPermissions handler:handler];
+      [_loginManager logInWithPublishPermissions:self.publishPermissions
+                              fromViewController:[FBSDKInternalUtility viewControllerforView:self]
+                                         handler:handler];
     } else {
-      [_loginManager logInWithReadPermissions:self.readPermissions handler:handler];
+      [_loginManager logInWithReadPermissions:self.readPermissions
+                           fromViewController:[FBSDKInternalUtility viewControllerforView:self]
+                                      handler:handler];
     }
   }
 }

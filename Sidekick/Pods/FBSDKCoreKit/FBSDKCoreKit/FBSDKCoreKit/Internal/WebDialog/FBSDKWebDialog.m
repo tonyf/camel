@@ -87,7 +87,11 @@ static FBSDKWebDialog *g_currentDialog = nil;
     return NO;
   }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
   _dialogView = [[FBSDKWebDialogView alloc] initWithFrame:window.screen.applicationFrame];
+#pragma clang diagnostic pop
+
   _dialogView.delegate = self;
   [_dialogView loadURL:URL];
 
@@ -218,7 +222,7 @@ static FBSDKWebDialog *g_currentDialog = nil;
 {
   NSMutableDictionary *parameters = [[NSMutableDictionary alloc] init];
   parameters[@"display"] = @"touch";
-  parameters[@"sdk"] = [FBSDKSettings sdkVersion];
+  parameters[@"sdk"] = [NSString stringWithFormat:@"ios-%@", [FBSDKSettings sdkVersion]];
   parameters[@"redirect_uri"] = @"fbconnect://success";
   [FBSDKInternalUtility dictionary:parameters setObject:[FBSDKSettings appID] forKey:@"app_id"];
   [FBSDKInternalUtility dictionary:parameters
@@ -282,7 +286,10 @@ static FBSDKWebDialog *g_currentDialog = nil;
 
 - (CGRect)_applicationFrameForOrientation
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
   CGRect applicationFrame = _dialogView.window.screen.applicationFrame;
+#pragma clang diagnostic pop
   if ([FBSDKInternalUtility shouldManuallyAdjustOrientation]) {
     switch ([UIApplication sharedApplication].statusBarOrientation) {
       case UIInterfaceOrientationLandscapeLeft:
@@ -315,7 +322,10 @@ static FBSDKWebDialog *g_currentDialog = nil;
   void(^updateBlock)(void) = ^{
     _dialogView.transform = transform;
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     CGRect mainFrame = _dialogView.window.screen.applicationFrame;
+#pragma clang diagnostic pop
     _dialogView.center = CGPointMake(CGRectGetMidX(mainFrame),
                                      CGRectGetMidY(mainFrame));
     _backgroundView.alpha = alpha;
