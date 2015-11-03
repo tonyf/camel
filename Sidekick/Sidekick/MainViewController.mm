@@ -59,7 +59,7 @@
 #define PROFILE_PIC_SIZE 60
 #define PROFILE_PIC_ORIGIN 30
 #define TIME_LABEL_HEIGHT 30
-#define TIME_LABEL_WIDTH 97
+#define TIME_LABEL_WIDTH 140
 
 @implementation MainViewController
 

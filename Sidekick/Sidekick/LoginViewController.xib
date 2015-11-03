@@ -22,7 +22,7 @@
                     <animations/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fRR-xD-JyC">
-                    <rect key="frame" x="188" y="116.5" width="376" height="233"/>
+                    <rect key="frame" x="188" y="116" width="376" height="233"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camel" translatesAutoresizingMaskIntoConstraints="NO" id="ySE-PF-1DC">
                             <rect key="frame" x="87" y="0.0" width="202" height="105"/>
@@ -82,6 +82,13 @@
                         </mask>
                     </variation>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By logging in you agree to the Terms of Service and Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEa-Aj-IFT">
+                    <rect key="frame" x="216.5" y="348" width="319.5" height="12"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <animations/>
             <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,9 +96,11 @@
                 <constraint firstItem="Mvr-jY-nDG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-2" id="FiW-po-8D7"/>
                 <constraint firstAttribute="centerX" secondItem="fRR-xD-JyC" secondAttribute="centerX" id="KHf-ty-vNo"/>
                 <constraint firstAttribute="bottom" secondItem="Mvr-jY-nDG" secondAttribute="bottom" id="a8L-su-eFi"/>
+                <constraint firstItem="kEa-Aj-IFT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cEL-wp-QGB"/>
                 <constraint firstItem="Mvr-jY-nDG" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="f0N-mG-0PW"/>
                 <constraint firstItem="Mvr-jY-nDG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="hLM-E2-BYk"/>
                 <constraint firstAttribute="centerY" secondItem="fRR-xD-JyC" secondAttribute="centerY" id="smf-u0-6fh"/>
+                <constraint firstItem="kEa-Aj-IFT" firstAttribute="top" secondItem="Bsg-H0-rxD" secondAttribute="bottom" constant="13" id="ySs-VT-jSV"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="363" y="474"/>

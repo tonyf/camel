@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -23,6 +24,7 @@
             <subviews>
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMO-JH-md0">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
                 </mapView>
                 <view alpha="0.74999999999999978" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RXm-Hh-CtT">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
@@ -32,6 +34,7 @@
                             <subviews>
                                 <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="g5N-rh-ziJ">
                                     <rect key="frame" x="57" y="11" width="477" height="44"/>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="469" id="d43-UR-tNM"/>
                                     </constraints>
@@ -44,12 +47,14 @@
                                 </searchBar>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qR2-tz-590">
                                     <rect key="frame" x="546" y="12" width="42" height="42"/>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="qR2-tz-590" secondAttribute="height" multiplier="1:1" id="kD7-HX-fBB"/>
                                     </constraints>
                                 </view>
                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p6-yq-CK1">
                                     <rect key="frame" x="12" y="23" width="33" height="20"/>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="20" id="3SP-Aw-ofl"/>
                                         <constraint firstAttribute="width" constant="33" id="NmK-68-iSx"/>
@@ -63,6 +68,7 @@
                                 </button>
                                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frc-tc-y5R">
                                     <rect key="frame" x="556" y="20" width="25" height="25"/>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="25" id="g0D-OA-Wyv"/>
                                         <constraint firstAttribute="height" constant="25" id="kGO-0m-wYz"/>
@@ -76,6 +82,7 @@
                                     </connections>
                                 </button>
                             </subviews>
+                            <animations/>
                             <constraints>
                                 <constraint firstItem="g5N-rh-ziJ" firstAttribute="leading" secondItem="9p6-yq-CK1" secondAttribute="trailing" constant="12" id="1A3-Ey-Sqp"/>
                                 <constraint firstItem="9p6-yq-CK1" firstAttribute="leading" secondItem="sHC-TE-AZJ" secondAttribute="leading" constant="12" id="H4k-HE-y7i"/>
@@ -90,6 +97,7 @@
                             </constraints>
                         </view>
                     </subviews>
+                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="sHC-TE-AZJ" firstAttribute="leading" secondItem="RXm-Hh-CtT" secondAttribute="leading" id="EVj-AA-uM4"/>
@@ -101,6 +109,7 @@
                 </view>
                 <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Egx-mP-3D1">
                     <rect key="frame" x="0.0" y="66" width="600" height="0.0"/>
+                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" id="614-SC-QON"/>
@@ -111,6 +120,7 @@
                     </connections>
                 </tableView>
             </subviews>
+            <animations/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="QMO-JH-md0" secondAttribute="bottom" id="9WJ-bP-Lam"/>
                 <constraint firstAttribute="trailing" secondItem="Egx-mP-3D1" secondAttribute="trailing" id="CJ9-Ax-g5k"/>
